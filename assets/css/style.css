@@ -89,17 +89,13 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#aboutus p {
-    color: #CFC278;
-    padding-top: 140px;
-}
-
 #aboutus span {
     background-color: #7A9081;
 }
 
 #aboutus ul {
     padding-top: 35px;
+    float: left;
 }
 
 #aboutus li {
@@ -119,4 +115,16 @@ h1, h2, h3 {
 #aboutus th {
     padding-top: 7px;
     padding-left: 35px;
+}
+
+#community {
+    padding-left: 70px;
+    width: 33%;
+    display: inline-block;
+}
+
+#table {
+    padding-right: 70px;    
+    width: 33%;
+    display: inline-block;
 }
