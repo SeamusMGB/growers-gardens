@@ -7,9 +7,9 @@
 }
 
 body {
-    font-family: Roboto-Mono, sans-serif;
+    font-family: Roboto+Mono, sans-serif;
     font-weight: 200;
-    color: #383A2E;
+    color: #5C3B3D;
 }
 
 /* headings */
@@ -101,15 +101,17 @@ h1, h2, h3 {
 #aboutus li {
     padding-top: 7px;
     list-style-type: none;
-    color: #CFC278;
+    color: #5C3B3D;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
 }
 
 #aboutus table {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 140px;
+    float: right;
+    padding-top: 35px;
     color: #5C3B3D;
     font-family: Poppins, sans-serif;
+    font-size: 20px;
 }
 
 #aboutus th {
@@ -127,4 +129,36 @@ h1, h2, h3 {
     padding-right: 70px;    
     width: 33%;
     display: inline-block;
+
+}
+
+/* join */
+
+#join {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #CFC278;
+    text-align: center;
+}
+
+#join h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#join form {
+    padding-top: 70px;
+    margin: 0 auto;
+    color: #5C3B3D;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+#join input {
+    width: 25%;
+    font-family: Roboto+Mono, sans-serif;
+    letter-spacing: 4px;
+    color: #5C3B3D;
+    font-size: 20px;
+
 }
