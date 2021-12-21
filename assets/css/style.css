@@ -51,11 +51,13 @@ h1, h2 {
 
 #hero-outer {
     height: 600px;
-    clear: both;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
     height: 600px;
-    width: 50%;
+    width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
 }
