@@ -14,6 +14,10 @@ body {
 
 /* headings */
 
+header {
+    height: 100px;
+}
+
 h1, h2, h3 {
     font-family: Poppins, sans-serif;
     letter-spacing: 4px;
@@ -162,3 +166,24 @@ h1, h2, h3 {
     font-size: 20px;
 
 }
+ /* footer */
+
+footer {
+    height: 100px;
+}
+
+.contact-us {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+ .contact-us > li {
+     display: inline;
+ }
+
+ .contact-us i {
+     margin: 10%;
+     padding: 10%;
+     color: #5C3B3D;
+ }
