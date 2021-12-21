@@ -46,3 +46,16 @@ h1, h2 {
     color: #383A2E;
     background-color: #CFC278;
 }
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    clear: both;
+}
+
+#hero-image {
+    height: 600px;
+    width: 50%;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+}
