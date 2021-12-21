@@ -14,7 +14,7 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Poppins, sans-serif;
     letter-spacing: 4px;
     color: #5C3B3D;
@@ -22,6 +22,7 @@ h1, h2 {
 
 #logo {
     float: left;
+    margin-left: 35px;
 }
 
 #menu {
@@ -72,4 +73,50 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+/* about us */
+
+#aboutus {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #7A9081;
+    text-align: center;
+}
+
+#aboutus h2, h3 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#aboutus p {
+    color: #CFC278;
+    padding-top: 140px;
+}
+
+#aboutus span {
+    background-color: #7A9081;
+}
+
+#aboutus ul {
+    padding-top: 35px;
+}
+
+#aboutus li {
+    padding-top: 7px;
+    list-style-type: none;
+    color: #CFC278;
+}
+
+#aboutus table {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 140px;
+    color: #5C3B3D;
+    font-family: Poppins, sans-serif;
+}
+
+#aboutus th {
+    padding-top: 7px;
+    padding-left: 35px;
 }
