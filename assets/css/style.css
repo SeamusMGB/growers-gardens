@@ -7,6 +7,42 @@
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: Roboto-Mono, sans-serif;
     font-weight: 200;
+    color: #383A2E;
+}
+
+/* headings */
+
+h1, h2 {
+    font-family: Poppins, sans-serif;
+    letter-spacing: 4px;
+    color: #5C3B3D;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    font-size: 110%;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #383A2E;
+    background-color: #CFC278;
 }
